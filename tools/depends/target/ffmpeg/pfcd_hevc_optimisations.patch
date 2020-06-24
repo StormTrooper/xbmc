@@ -657,9 +657,9 @@ index 3cd73fbcc6..aa15d411cd 100644
            avdct.h                                                       \
            avfft.h                                                       \
 +          rpi_zc.h                                                      \
-           d3d11va.h                                                     \
-           dirac.h                                                       \
-           dv_profile.h                                                  \
+           bsf.h                                                         \
+           codec.h                                                       \
+           codec_desc.h                                                  \
 @@ -132,6 +133,7 @@ OBJS-$(CONFIG_QSVDEC)                  += qsvdec.o
  OBJS-$(CONFIG_QSVENC)                  += qsvenc.o
  OBJS-$(CONFIG_RANGECODER)              += rangecoder.o
