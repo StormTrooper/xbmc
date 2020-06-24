@@ -15375,9 +15375,9 @@ index d234271c5b..a36b675fba 100644
 +++ b/libavcodec/avcodec.h
 @@ -3273,7 +3273,13 @@ typedef struct AVCodecContext {
  #endif
- 
+
      /**
--     * Audio only. The number of "priming" samples (padding) inserted by the 
+-     * Audio only. The number of "priming" samples (padding) inserted by the
 +     * Opaque pointer for use by replacement get_buffer2 code
 +     *
 +     * @author jc (08/02/2016)
