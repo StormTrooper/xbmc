@@ -43018,9 +43018,9 @@ index dcf1fc3d17..dd0876f5a9 100644
  #include "avassert.h"
  #include "buffer.h"
 @@ -25,6 +27,9 @@
- #include "imgutils.h"
  #include "mem.h"
  #include "samplefmt.h"
+ #include "hwcontext.h"
 +#if CONFIG_SAND
 +#include "rpi_sand_fns.h"
 +#endif
